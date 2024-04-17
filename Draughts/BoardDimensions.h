@@ -1,0 +1,28 @@
+#pragma once
+
+#define SIZE_OF_FIELD 100
+
+#define AMOUNT_OF_FIELDS 8 // amount of fields
+
+#define WIDTH_OF_GAME 1300
+#define HEIGHT_OF_GAME 900
+
+#define WIDTH_OUTLINE 50 // distance board from left
+#define HEIGHT_OUTLINE 50 // distance board from upper 
+
+#define THICKNESS_OF_DISTRICT 25
+#define DISTRICT_WITH_NUMBERS_W WIDTH_OUTLINE - THICKNESS_OF_DISTRICT // the space with numbers
+#define DISTRICT_WITH_NUMBERS_H HEIGHT_OUTLINE - THICKNESS_OF_DISTRICT
+
+// TEXT ON BOARD
+#define SIZE_OF_FONT 20
+#define PLACE_OF_FIRST_LETTER_W  WIDTH_OUTLINE + SIZE_OF_FIELD/2
+#define PLACE_OF_FIRST_LETTER_H  DISTRICT_WITH_NUMBERS_H
+
+#define PLACE_OF_FIRST_NUMBER_W  DISTRICT_WITH_NUMBERS_W + 5 // 5 - allowance
+#define PLACE_OF_FIRST_NUMBER_H  DISTRICT_WITH_NUMBERS_H + SIZE_OF_FIELD/2
+
+// WHITE DRAUGHT
+
+#define RADIUS_OF_DRAUGHT 45
+#define DISTANCE_DRAUGHT SIZE_OF_FIELD/2 - RADIUS_OF_DRAUGHT// distance the draught from beginning of field 
